@@ -1,0 +1,2956 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0213.2333                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0213.2333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='dataset_all' inline='true' name='federated.18yzqe31cf05xc19rcvap0pf5n9c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset_all' name='textscan.00qp4561y45ito1f21a200bx2jaq'>
+            <connection class='textscan' directory='/Users/jialing/Desktop/1001/new' filename='dataset_all.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.00qp4561y45ito1f21a200bx2jaq' name='dataset_all.csv' table='[dataset_all#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='ACTION' ordinal='0' />
+            <column datatype='string' name='ADDRESS' ordinal='1' />
+            <column datatype='string' name='BORO' ordinal='2' />
+            <column datatype='integer' name='BUILDING' ordinal='3' />
+            <column datatype='real' name='CAMIS' ordinal='4' />
+            <column datatype='real' name='CRIT' ordinal='5' />
+            <column datatype='string' name='CRIT_TYPE' ordinal='6' />
+            <column datatype='string' name='DBA' ordinal='7' />
+            <column datatype='string' name='GRADE' ordinal='8' />
+            <column datatype='real' name='HIST_CRIT' ordinal='9' />
+            <column datatype='string' name='HIST_CRIT_TYPE' ordinal='10' />
+            <column datatype='date' name='INSP_DATE' ordinal='11' />
+            <column datatype='date' name='LAST_CRIT_DATE' ordinal='12' />
+            <column datatype='date' name='LAST_INSP_DATE' ordinal='13' />
+            <column datatype='integer' name='PHONE' ordinal='14' />
+            <column datatype='real' name='SCORE' ordinal='15' />
+            <column datatype='string' name='STREET' ordinal='16' />
+            <column datatype='real' name='ZIPCODE' ordinal='17' />
+            <column datatype='string' name='yelp_address1' ordinal='18' />
+            <column datatype='string' name='yelp_categories_t' ordinal='19' />
+            <column datatype='string' name='yelp_city' ordinal='20' />
+            <column datatype='integer' name='yelp_day0' ordinal='21' />
+            <column datatype='integer' name='yelp_day1' ordinal='22' />
+            <column datatype='integer' name='yelp_day2' ordinal='23' />
+            <column datatype='integer' name='yelp_day3' ordinal='24' />
+            <column datatype='integer' name='yelp_day4' ordinal='25' />
+            <column datatype='integer' name='yelp_day5' ordinal='26' />
+            <column datatype='integer' name='yelp_day6' ordinal='27' />
+            <column datatype='string' name='yelp_id' ordinal='28' />
+            <column datatype='boolean' name='yelp_is_closed' ordinal='29' />
+            <column datatype='real' name='yelp_latitude' ordinal='30' />
+            <column datatype='real' name='yelp_longitude' ordinal='31' />
+            <column datatype='string' name='yelp_name' ordinal='32' />
+            <column datatype='real' name='yelp_phone' ordinal='33' />
+            <column datatype='real' name='yelp_price' ordinal='34' />
+            <column datatype='real' name='yelp_rating' ordinal='35' />
+            <column datatype='real' name='yelp_review_count' ordinal='36' />
+            <column datatype='string' name='yelp_state' ordinal='37' />
+            <column datatype='string' name='yelp_transactions' ordinal='38' />
+            <column datatype='string' name='yelp_url' ordinal='39' />
+            <column datatype='real' name='yelp_zip_code' ordinal='40' />
+            <column datatype='datetime' name='day0_end' ordinal='41' />
+            <column datatype='datetime' name='day0_start' ordinal='42' />
+            <column datatype='real' name='day0_daily' ordinal='43' />
+            <column datatype='datetime' name='day1_end' ordinal='44' />
+            <column datatype='datetime' name='day1_start' ordinal='45' />
+            <column datatype='real' name='day1_daily' ordinal='46' />
+            <column datatype='datetime' name='day2_end' ordinal='47' />
+            <column datatype='datetime' name='day2_start' ordinal='48' />
+            <column datatype='real' name='day2_daily' ordinal='49' />
+            <column datatype='datetime' name='day3_end' ordinal='50' />
+            <column datatype='datetime' name='day3_start' ordinal='51' />
+            <column datatype='real' name='day3_daily' ordinal='52' />
+            <column datatype='datetime' name='day4_end' ordinal='53' />
+            <column datatype='datetime' name='day4_start' ordinal='54' />
+            <column datatype='real' name='day4_daily' ordinal='55' />
+            <column datatype='datetime' name='day5_end' ordinal='56' />
+            <column datatype='datetime' name='day5_start' ordinal='57' />
+            <column datatype='real' name='day5_daily' ordinal='58' />
+            <column datatype='datetime' name='day6_end' ordinal='59' />
+            <column datatype='datetime' name='day6_start' ordinal='60' />
+            <column datatype='real' name='day6_daily' ordinal='61' />
+            <column datatype='real' name='yelp_weekly_hr' ordinal='62' />
+            <column datatype='real' name='day0_overnight' ordinal='63' />
+            <column datatype='real' name='day1_overnight' ordinal='64' />
+            <column datatype='real' name='day2_overnight' ordinal='65' />
+            <column datatype='real' name='day3_overnight' ordinal='66' />
+            <column datatype='real' name='day4_overnight' ordinal='67' />
+            <column datatype='real' name='day5_overnight' ordinal='68' />
+            <column datatype='real' name='day6_overnight' ordinal='69' />
+            <column datatype='real' name='yelp_overnight_times' ordinal='70' />
+            <column datatype='real' name='CRIT_FLAG' ordinal='71' />
+            <column datatype='real' name='CRIT_FLAG2' ordinal='72' />
+            <column datatype='real' name='2CRIT_FREQ' ordinal='73' />
+            <column datatype='real' name='NCRIT_FREQ' ordinal='74' />
+            <column datatype='real' name='ZIPENC' ordinal='75' />
+            <column datatype='real' name='yelp_price_mv' ordinal='76' />
+            <column datatype='real' name='Dsince_LAST_INSP' ordinal='77' />
+            <column datatype='real' name='NEWLY_INSP' ordinal='78' />
+            <column datatype='integer' name='Rat Sighting' ordinal='79' />
+            <column datatype='integer' name='Mouse Sighting' ordinal='80' />
+            <column datatype='integer' name='Condition Attracting Rodents' ordinal='81' />
+            <column datatype='integer' name='Signs of Rodents' ordinal='82' />
+            <column datatype='integer' name='Dsince_LAST_CRIT' ordinal='83' />
+            <column datatype='integer' name='yelp_weekly_day' ordinal='84' />
+            <column datatype='integer' name='day0_open' ordinal='85' />
+            <column datatype='integer' name='day1_open' ordinal='86' />
+            <column datatype='integer' name='day2_open' ordinal='87' />
+            <column datatype='integer' name='day3_open' ordinal='88' />
+            <column datatype='integer' name='day4_open' ordinal='89' />
+            <column datatype='integer' name='day5_open' ordinal='90' />
+            <column datatype='integer' name='day6_open' ordinal='91' />
+            <column datatype='integer' name='NO_HISTCRIT' ordinal='92' />
+            <column datatype='real' name='CRIT_TIMES' ordinal='93' />
+            <column datatype='real' name='INSP_TIMES' ordinal='94' />
+            <column datatype='real' name='CRIT_RATE' ordinal='95' />
+            <column datatype='string' name='yelp_reviews' ordinal='96' />
+            <column datatype='real' name='AveTemp_3dayMax' ordinal='97' />
+            <column datatype='real' name='MaxTemp_3dayMax' ordinal='98' />
+            <column datatype='real' name='AveHum_3dayMax' ordinal='99' />
+            <column datatype='real' name='AveTemp_3dayAve' ordinal='100' />
+            <column datatype='real' name='MaxTemp_3dayAve' ordinal='101' />
+            <column datatype='real' name='AveHum_3dayAve' ordinal='102' />
+            <column datatype='real' name='AveTemp_3dayRange' ordinal='103' />
+            <column datatype='real' name='MaxTemp_3dayRange' ordinal='104' />
+            <column datatype='real' name='AveHum_3dayRange' ordinal='105' />
+            <column datatype='string' name='gmap_reviews' ordinal='106' />
+            <column datatype='real' name='Month_1' ordinal='107' />
+            <column datatype='real' name='Month_2' ordinal='108' />
+            <column datatype='real' name='Month_3' ordinal='109' />
+            <column datatype='real' name='Month_4' ordinal='110' />
+            <column datatype='real' name='Month_5' ordinal='111' />
+            <column datatype='real' name='Month_6' ordinal='112' />
+            <column datatype='real' name='Month_7' ordinal='113' />
+            <column datatype='real' name='Month_8' ordinal='114' />
+            <column datatype='real' name='Month_9' ordinal='115' />
+            <column datatype='real' name='Month_10' ordinal='116' />
+            <column datatype='real' name='Month_11' ordinal='117' />
+            <column datatype='real' name='Month_12' ordinal='118' />
+            <column datatype='string' name='gmap_reviews_hist' ordinal='119' />
+            <column datatype='string' name='yelp_reviews_hist' ordinal='120' />
+            <column datatype='integer' name='puma10' ordinal='121' />
+            <column datatype='string' name='CD' ordinal='122' />
+            <column datatype='string' name='pumaname' ordinal='123' />
+            <column datatype='real' name='per_of_puma' ordinal='124' />
+            <column datatype='real' name='ChildrenUnder18' ordinal='125' />
+            <column datatype='real' name='IncomeDiv' ordinal='126' />
+            <column datatype='real' name='MedianIncome' ordinal='127' />
+            <column datatype='integer' name='Population' ordinal='128' />
+            <column datatype='real' name='PopDensity' ordinal='129' />
+            <column datatype='real' name='PovertyRate' ordinal='130' />
+            <column datatype='real' name='RacialDiv' ordinal='131' />
+            <column datatype='real' name='UnemployRate' ordinal='132' />
+            <column datatype='real' name='MedianRentB' ordinal='133' />
+            <column datatype='real' name='25NoHighSchool' ordinal='134' />
+            <column datatype='real' name='CrimeRate' ordinal='135' />
+            <column datatype='real' name='CrimeRateViolent' ordinal='136' />
+            <column datatype='real' name='CrimeRateProperty' ordinal='137' />
+            <column datatype='real' name='price_over_rating' ordinal='138' />
+            <column datatype='real' name='rating_over_price' ordinal='139' />
+            <column datatype='real' name='rating_count_prod' ordinal='140' />
+            <column datatype='string' name='CUISINE DESCRIPTION' ordinal='141' />
+            <column datatype='string' name='yelp_categories_a' ordinal='142' />
+            <column datatype='string' name='CUIZ_TYPE' ordinal='143' />
+            <column datatype='integer' name='MONTH' ordinal='144' />
+            <column datatype='date' name='OpenDate' ordinal='145' />
+            <column datatype='string' name='LastAction' ordinal='146' />
+            <column datatype='real' name='LastScore' ordinal='147' />
+            <column datatype='integer' name='LastScore_mv' ordinal='148' />
+            <column datatype='string' name='LastGrade' ordinal='149' />
+            <column datatype='string' name='LastInspType' ordinal='150' />
+            <column datatype='real' name='TotalOpenDays' ordinal='151' />
+            <column datatype='string' name='LastInspProgram' ordinal='152' />
+            <column datatype='string' name='LastInspCat' ordinal='153' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACTION]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>ACTION</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADDRESS]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>ADDRESS</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BORO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BORO]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>BORO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BUILDING</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BUILDING]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>BUILDING</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CAMIS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CAMIS]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CAMIS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CRIT]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CRIT_TYPE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT_TYPE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DBA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DBA]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>DBA</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GRADE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GRADE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>GRADE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIST_CRIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HIST_CRIT]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>HIST_CRIT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIST_CRIT_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HIST_CRIT_TYPE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>HIST_CRIT_TYPE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSP_DATE</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[INSP_DATE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>INSP_DATE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAST_CRIT_DATE</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[LAST_CRIT_DATE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LAST_CRIT_DATE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAST_INSP_DATE</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[LAST_INSP_DATE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LAST_INSP_DATE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PHONE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PHONE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>PHONE</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCORE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SCORE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>SCORE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREET</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STREET]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>STREET</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIPCODE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ZIPCODE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>ZIPCODE</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_address1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_address1]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_address1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_categories_t</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_categories_t]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_categories_t</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_city]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_city</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day0]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day0</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day1]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day2]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day3]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day3</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day4]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day4</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day5]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day5</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_day6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_day6]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_day6</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_id]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_id</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_is_closed</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[yelp_is_closed]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_is_closed</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_latitude]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_latitude</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_longitude]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_longitude</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_name]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_name</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_phone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_phone]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_phone</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_price]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_price</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_rating]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_rating</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_review_count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_review_count]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_review_count</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_state]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_state</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_transactions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_transactions]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_transactions</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_url]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_url</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_zip_code</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_zip_code]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_zip_code</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day0_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day0_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day0_end</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day0_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day0_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day0_start</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day0_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day0_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day0_daily</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day1_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day1_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day1_end</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day1_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day1_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day1_start</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day1_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day1_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day1_daily</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day2_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day2_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day2_end</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day2_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day2_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day2_start</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day2_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day2_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day2_daily</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day3_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day3_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day3_end</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day3_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day3_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day3_start</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day3_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day3_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day3_daily</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day4_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day4_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day4_end</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day4_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day4_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day4_start</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day4_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day4_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day4_daily</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day5_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day5_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day5_end</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day5_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day5_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day5_start</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day5_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day5_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day5_daily</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day6_end</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day6_end]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day6_end</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day6_start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[day6_start]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day6_start</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day6_daily</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day6_daily]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day6_daily</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_weekly_hr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_weekly_hr]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_weekly_hr</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day0_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day0_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day0_overnight</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day1_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day1_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day1_overnight</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day2_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day2_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day2_overnight</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day3_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day3_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day3_overnight</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day4_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day4_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day4_overnight</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day5_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day5_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day5_overnight</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day6_overnight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day6_overnight]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day6_overnight</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_overnight_times</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_overnight_times]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_overnight_times</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT_FLAG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CRIT_FLAG]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT_FLAG</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT_FLAG2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CRIT_FLAG2]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT_FLAG2</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2CRIT_FREQ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2CRIT_FREQ]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>2CRIT_FREQ</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NCRIT_FREQ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NCRIT_FREQ]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>NCRIT_FREQ</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIPENC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ZIPENC]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>ZIPENC</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_price_mv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[yelp_price_mv]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_price_mv</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dsince_LAST_INSP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dsince_LAST_INSP]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Dsince_LAST_INSP</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEWLY_INSP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NEWLY_INSP]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>NEWLY_INSP</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rat Sighting</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rat Sighting]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Rat Sighting</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mouse Sighting</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mouse Sighting]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Mouse Sighting</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Condition Attracting Rodents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Condition Attracting Rodents]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Condition Attracting Rodents</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Signs of Rodents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Signs of Rodents]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Signs of Rodents</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dsince_LAST_CRIT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dsince_LAST_CRIT]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Dsince_LAST_CRIT</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_weekly_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yelp_weekly_day]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_weekly_day</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day0_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day0_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day0_open</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day1_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day1_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day1_open</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day2_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day2_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day2_open</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day3_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day3_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day3_open</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day4_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day4_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day4_open</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day5_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day5_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day5_open</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day6_open</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day6_open]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>day6_open</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_HISTCRIT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO_HISTCRIT]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>NO_HISTCRIT</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT_TIMES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CRIT_TIMES]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT_TIMES</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSP_TIMES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSP_TIMES]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>INSP_TIMES</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRIT_RATE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CRIT_RATE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CRIT_RATE</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_reviews</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_reviews]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_reviews</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveTemp_3dayMax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveTemp_3dayMax]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveTemp_3dayMax</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaxTemp_3dayMax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MaxTemp_3dayMax]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MaxTemp_3dayMax</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveHum_3dayMax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveHum_3dayMax]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveHum_3dayMax</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveTemp_3dayAve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveTemp_3dayAve]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveTemp_3dayAve</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaxTemp_3dayAve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MaxTemp_3dayAve]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MaxTemp_3dayAve</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveHum_3dayAve</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveHum_3dayAve]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveHum_3dayAve</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveTemp_3dayRange</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveTemp_3dayRange]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveTemp_3dayRange</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MaxTemp_3dayRange</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MaxTemp_3dayRange]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MaxTemp_3dayRange</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AveHum_3dayRange</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AveHum_3dayRange]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>AveHum_3dayRange</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gmap_reviews</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gmap_reviews]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>gmap_reviews</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_1]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_1</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_2]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_2</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_3]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_3</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_4]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_4</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_5]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_5</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_6]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_6</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_7]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_7</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_8]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_8</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_9]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_9</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_10]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_10</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_11]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_11</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month_12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Month_12]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Month_12</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gmap_reviews_hist</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gmap_reviews_hist]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>gmap_reviews_hist</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_reviews_hist</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_reviews_hist]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_reviews_hist</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>puma10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[puma10]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>puma10</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CD]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CD</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pumaname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pumaname]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>pumaname</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>per_of_puma</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[per_of_puma]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>per_of_puma</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChildrenUnder18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ChildrenUnder18]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>ChildrenUnder18</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IncomeDiv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IncomeDiv]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>IncomeDiv</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianIncome</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianIncome]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MedianIncome</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PopDensity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PopDensity]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>PopDensity</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PovertyRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PovertyRate]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>PovertyRate</remote-alias>
+            <ordinal>130</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RacialDiv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RacialDiv]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>RacialDiv</remote-alias>
+            <ordinal>131</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UnemployRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[UnemployRate]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>UnemployRate</remote-alias>
+            <ordinal>132</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentB]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MedianRentB</remote-alias>
+            <ordinal>133</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>25NoHighSchool</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[25NoHighSchool]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>25NoHighSchool</remote-alias>
+            <ordinal>134</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CrimeRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CrimeRate]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CrimeRate</remote-alias>
+            <ordinal>135</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CrimeRateViolent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CrimeRateViolent]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CrimeRateViolent</remote-alias>
+            <ordinal>136</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CrimeRateProperty</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CrimeRateProperty]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CrimeRateProperty</remote-alias>
+            <ordinal>137</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price_over_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[price_over_rating]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>price_over_rating</remote-alias>
+            <ordinal>138</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating_over_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rating_over_price]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>rating_over_price</remote-alias>
+            <ordinal>139</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating_count_prod</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rating_count_prod]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>rating_count_prod</remote-alias>
+            <ordinal>140</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CUISINE DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CUISINE DESCRIPTION]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CUISINE DESCRIPTION</remote-alias>
+            <ordinal>141</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yelp_categories_a</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yelp_categories_a]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>yelp_categories_a</remote-alias>
+            <ordinal>142</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CUIZ_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CUIZ_TYPE]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>CUIZ_TYPE</remote-alias>
+            <ordinal>143</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MONTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MONTH]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>MONTH</remote-alias>
+            <ordinal>144</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpenDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[OpenDate]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>OpenDate</remote-alias>
+            <ordinal>145</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastAction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastAction]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastAction</remote-alias>
+            <ordinal>146</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastScore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LastScore]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastScore</remote-alias>
+            <ordinal>147</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastScore_mv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LastScore_mv]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastScore_mv</remote-alias>
+            <ordinal>148</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastGrade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastGrade]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastGrade</remote-alias>
+            <ordinal>149</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastInspType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastInspType]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastInspType</remote-alias>
+            <ordinal>150</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalOpenDays</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalOpenDays]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>TotalOpenDays</remote-alias>
+            <ordinal>151</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastInspProgram</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastInspProgram]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastInspProgram</remote-alias>
+            <ordinal>152</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastInspCat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastInspCat]</local-name>
+            <parent-name>[dataset_all.csv]</parent-name>
+            <remote-alias>LastInspCat</remote-alias>
+            <ordinal>153</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='2crit Freq' datatype='real' name='[2CRIT_FREQ]' role='measure' type='quantitative' />
+      <column caption='Action' datatype='string' name='[ACTION]' role='dimension' type='nominal' />
+      <column caption='Address' datatype='string' name='[ADDRESS]' role='dimension' type='nominal' />
+      <column caption='AveHum 3dayAve' datatype='real' name='[AveHum_3dayAve]' role='measure' type='quantitative' />
+      <column caption='AveHum 3dayMax' datatype='real' name='[AveHum_3dayMax]' role='measure' type='quantitative' />
+      <column caption='AveHum 3dayRange' datatype='real' name='[AveHum_3dayRange]' role='measure' type='quantitative' />
+      <column caption='AveTemp 3dayAve' datatype='real' name='[AveTemp_3dayAve]' role='measure' type='quantitative' />
+      <column caption='AveTemp 3dayMax' datatype='real' name='[AveTemp_3dayMax]' role='measure' type='quantitative' />
+      <column caption='AveTemp 3dayRange' datatype='real' name='[AveTemp_3dayRange]' role='measure' type='quantitative' />
+      <column caption='Boro' datatype='string' name='[BORO]' role='dimension' type='nominal' />
+      <column caption='Building' datatype='integer' name='[BUILDING]' role='measure' type='quantitative' />
+      <column caption='Camis' datatype='real' name='[CAMIS]' role='measure' type='quantitative' />
+      <column caption='Crit' datatype='real' name='[CRIT]' role='measure' type='quantitative' />
+      <column caption='Crit Flag2' datatype='real' name='[CRIT_FLAG2]' role='measure' type='quantitative' />
+      <column caption='Crit Flag' datatype='real' name='[CRIT_FLAG]' role='measure' type='quantitative' />
+      <column caption='Crit Rate' datatype='real' name='[CRIT_RATE]' role='measure' type='quantitative' />
+      <column caption='Crit Times' datatype='real' name='[CRIT_TIMES]' role='measure' type='quantitative' />
+      <column caption='Crit Type' datatype='string' name='[CRIT_TYPE]' role='dimension' type='nominal' />
+      <column caption='Cuisine Description' datatype='string' name='[CUISINE DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Cuiz Type' datatype='string' name='[CUIZ_TYPE]' role='dimension' type='nominal' />
+      <column caption='Crime Rate Property' datatype='real' name='[CrimeRateProperty]' role='measure' type='quantitative' />
+      <column caption='Crime Rate Violent' datatype='real' name='[CrimeRateViolent]' role='measure' type='quantitative' />
+      <column caption='Crime Rate' datatype='real' name='[CrimeRate]' role='measure' type='quantitative' />
+      <column caption='Dsince LAST CRIT' datatype='integer' name='[Dsince_LAST_CRIT]' role='measure' type='quantitative' />
+      <column caption='Dsince LAST INSP' datatype='real' name='[Dsince_LAST_INSP]' role='measure' type='quantitative' />
+      <column caption='Grade' datatype='string' name='[GRADE]' role='dimension' type='nominal' />
+      <column caption='Hist Crit' datatype='real' name='[HIST_CRIT]' role='measure' type='quantitative' />
+      <column caption='Hist Crit Type' datatype='string' name='[HIST_CRIT_TYPE]' role='dimension' type='nominal' />
+      <column caption='Insp Date' datatype='date' name='[INSP_DATE]' role='dimension' type='ordinal' />
+      <column caption='Insp Times' datatype='real' name='[INSP_TIMES]' role='measure' type='quantitative' />
+      <column caption='Income Div' datatype='real' name='[IncomeDiv]' role='measure' type='quantitative' />
+      <column caption='Last Crit Date' datatype='date' name='[LAST_CRIT_DATE]' role='dimension' type='ordinal' />
+      <column caption='Last Insp Date' datatype='date' name='[LAST_INSP_DATE]' role='dimension' type='ordinal' />
+      <column caption='Last Action' datatype='string' name='[LastAction]' role='dimension' type='nominal' />
+      <column caption='Last Grade' datatype='string' name='[LastGrade]' role='dimension' type='nominal' />
+      <column caption='Last Insp Cat' datatype='string' name='[LastInspCat]' role='dimension' type='nominal' />
+      <column caption='Last Insp Program' datatype='string' name='[LastInspProgram]' role='dimension' type='nominal' />
+      <column caption='Last Insp Type' datatype='string' name='[LastInspType]' role='dimension' type='nominal' />
+      <column caption='Last Score' datatype='real' name='[LastScore]' role='measure' type='quantitative' />
+      <column caption='LastScore mv' datatype='integer' name='[LastScore_mv]' role='measure' type='quantitative' />
+      <column caption='Month' datatype='integer' name='[MONTH]' role='dimension' type='quantitative' />
+      <column caption='MaxTemp 3dayAve' datatype='real' name='[MaxTemp_3dayAve]' role='measure' type='quantitative' />
+      <column caption='MaxTemp 3dayMax' datatype='real' name='[MaxTemp_3dayMax]' role='measure' type='quantitative' />
+      <column caption='MaxTemp 3dayRange' datatype='real' name='[MaxTemp_3dayRange]' role='measure' type='quantitative' />
+      <column caption='Median Income' datatype='real' name='[MedianIncome]' role='measure' type='quantitative' />
+      <column caption='Median Rent B' datatype='real' name='[MedianRentB]' role='measure' type='quantitative' />
+      <column caption='Month 10' datatype='real' name='[Month_10]' role='dimension' type='quantitative' />
+      <column caption='Month 11' datatype='real' name='[Month_11]' role='dimension' type='quantitative' />
+      <column caption='Month 12' datatype='real' name='[Month_12]' role='dimension' type='quantitative' />
+      <column caption='Month 1' datatype='real' name='[Month_1]' role='dimension' type='quantitative' />
+      <column caption='Month 2' datatype='real' name='[Month_2]' role='dimension' type='quantitative' />
+      <column caption='Month 3' datatype='real' name='[Month_3]' role='dimension' type='quantitative' />
+      <column caption='Month 4' datatype='real' name='[Month_4]' role='dimension' type='quantitative' />
+      <column caption='Month 5' datatype='real' name='[Month_5]' role='dimension' type='quantitative' />
+      <column caption='Month 6' datatype='real' name='[Month_6]' role='dimension' type='quantitative' />
+      <column caption='Month 7' datatype='real' name='[Month_7]' role='dimension' type='quantitative' />
+      <column caption='Month 8' datatype='real' name='[Month_8]' role='dimension' type='quantitative' />
+      <column caption='Month 9' datatype='real' name='[Month_9]' role='dimension' type='quantitative' />
+      <column caption='Ncrit Freq' datatype='real' name='[NCRIT_FREQ]' role='measure' type='quantitative' />
+      <column caption='Newly Insp' datatype='real' name='[NEWLY_INSP]' role='measure' type='quantitative' />
+      <column caption='No Histcrit' datatype='integer' name='[NO_HISTCRIT]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Open Date' datatype='date' name='[OpenDate]' role='dimension' type='ordinal' />
+      <column caption='Phone' datatype='integer' name='[PHONE]' role='measure' type='quantitative' />
+      <column caption='Pop Density' datatype='real' name='[PopDensity]' role='measure' type='quantitative' />
+      <column caption='Poverty Rate' datatype='real' name='[PovertyRate]' role='measure' type='quantitative' />
+      <column caption='Racial Div' datatype='real' name='[RacialDiv]' role='measure' type='quantitative' />
+      <column caption='Score' datatype='real' name='[SCORE]' role='measure' type='quantitative' />
+      <column caption='Street' datatype='string' name='[STREET]' role='dimension' type='nominal' />
+      <column caption='Total Open Days' datatype='real' name='[TotalOpenDays]' role='measure' type='quantitative' />
+      <column caption='Unemploy Rate' datatype='real' name='[UnemployRate]' role='measure' type='quantitative' />
+      <column caption='Zipcode' datatype='real' default-format='*00000' name='[ZIPCODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Zipenc' datatype='real' name='[ZIPENC]' role='measure' type='quantitative' />
+      <column caption='Day0 Daily' datatype='real' name='[day0_daily]' role='dimension' type='quantitative' />
+      <column caption='Day0 End' datatype='datetime' name='[day0_end]' role='dimension' type='ordinal' />
+      <column caption='Day0 Open' datatype='integer' name='[day0_open]' role='dimension' type='quantitative' />
+      <column caption='Day0 Overnight' datatype='real' name='[day0_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day0 Start' datatype='datetime' name='[day0_start]' role='dimension' type='ordinal' />
+      <column caption='Day1 Daily' datatype='real' name='[day1_daily]' role='dimension' type='quantitative' />
+      <column caption='Day1 End' datatype='datetime' name='[day1_end]' role='dimension' type='ordinal' />
+      <column caption='Day1 Open' datatype='integer' name='[day1_open]' role='dimension' type='quantitative' />
+      <column caption='Day1 Overnight' datatype='real' name='[day1_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day1 Start' datatype='datetime' name='[day1_start]' role='dimension' type='ordinal' />
+      <column caption='Day2 Daily' datatype='real' name='[day2_daily]' role='dimension' type='quantitative' />
+      <column caption='Day2 End' datatype='datetime' name='[day2_end]' role='dimension' type='ordinal' />
+      <column caption='Day2 Open' datatype='integer' name='[day2_open]' role='dimension' type='quantitative' />
+      <column caption='Day2 Overnight' datatype='real' name='[day2_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day2 Start' datatype='datetime' name='[day2_start]' role='dimension' type='ordinal' />
+      <column caption='Day3 Daily' datatype='real' name='[day3_daily]' role='dimension' type='quantitative' />
+      <column caption='Day3 End' datatype='datetime' name='[day3_end]' role='dimension' type='ordinal' />
+      <column caption='Day3 Open' datatype='integer' name='[day3_open]' role='dimension' type='quantitative' />
+      <column caption='Day3 Overnight' datatype='real' name='[day3_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day3 Start' datatype='datetime' name='[day3_start]' role='dimension' type='ordinal' />
+      <column caption='Day4 Daily' datatype='real' name='[day4_daily]' role='dimension' type='quantitative' />
+      <column caption='Day4 End' datatype='datetime' name='[day4_end]' role='dimension' type='ordinal' />
+      <column caption='Day4 Open' datatype='integer' name='[day4_open]' role='dimension' type='quantitative' />
+      <column caption='Day4 Overnight' datatype='real' name='[day4_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day4 Start' datatype='datetime' name='[day4_start]' role='dimension' type='ordinal' />
+      <column caption='Day5 Daily' datatype='real' name='[day5_daily]' role='dimension' type='quantitative' />
+      <column caption='Day5 End' datatype='datetime' name='[day5_end]' role='dimension' type='ordinal' />
+      <column caption='Day5 Open' datatype='integer' name='[day5_open]' role='dimension' type='quantitative' />
+      <column caption='Day5 Overnight' datatype='real' name='[day5_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day5 Start' datatype='datetime' name='[day5_start]' role='dimension' type='ordinal' />
+      <column caption='Day6 Daily' datatype='real' name='[day6_daily]' role='dimension' type='quantitative' />
+      <column caption='Day6 End' datatype='datetime' name='[day6_end]' role='dimension' type='ordinal' />
+      <column caption='Day6 Open' datatype='integer' name='[day6_open]' role='dimension' type='quantitative' />
+      <column caption='Day6 Overnight' datatype='real' name='[day6_overnight]' role='dimension' type='quantitative' />
+      <column caption='Day6 Start' datatype='datetime' name='[day6_start]' role='dimension' type='ordinal' />
+      <column caption='Gmap Reviews' datatype='string' name='[gmap_reviews]' role='dimension' type='nominal' />
+      <column caption='Gmap Reviews Hist' datatype='string' name='[gmap_reviews_hist]' role='dimension' type='nominal' />
+      <column caption='Per Of Puma' datatype='real' name='[per_of_puma]' role='measure' type='quantitative' />
+      <column caption='Price Over Rating' datatype='real' name='[price_over_rating]' role='measure' type='quantitative' />
+      <column caption='Puma10' datatype='integer' name='[puma10]' role='measure' type='quantitative' />
+      <column caption='Pumaname' datatype='string' name='[pumaname]' role='dimension' type='nominal' />
+      <column caption='Rating Count Prod' datatype='real' name='[rating_count_prod]' role='measure' type='quantitative' />
+      <column caption='Rating Over Price' datatype='real' name='[rating_over_price]' role='measure' type='quantitative' />
+      <column caption='Yelp Address1' datatype='string' name='[yelp_address1]' role='dimension' type='nominal' />
+      <column caption='Yelp Categories A' datatype='string' name='[yelp_categories_a]' role='dimension' type='nominal' />
+      <column caption='Yelp Categories T' datatype='string' name='[yelp_categories_t]' role='dimension' type='nominal' />
+      <column caption='Yelp City' datatype='string' name='[yelp_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Yelp Day0' datatype='integer' name='[yelp_day0]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day1' datatype='integer' name='[yelp_day1]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day2' datatype='integer' name='[yelp_day2]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day3' datatype='integer' name='[yelp_day3]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day4' datatype='integer' name='[yelp_day4]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day5' datatype='integer' name='[yelp_day5]' role='dimension' type='quantitative' />
+      <column caption='Yelp Day6' datatype='integer' name='[yelp_day6]' role='dimension' type='quantitative' />
+      <column caption='Yelp Id' datatype='string' name='[yelp_id]' role='dimension' type='nominal' />
+      <column caption='Yelp Is Closed' datatype='boolean' name='[yelp_is_closed]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[yelp_latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Yelp Longitude' datatype='real' name='[yelp_longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Yelp Name' datatype='string' name='[yelp_name]' role='dimension' type='nominal' />
+      <column caption='Yelp Overnight Times' datatype='real' name='[yelp_overnight_times]' role='measure' type='quantitative' />
+      <column caption='Yelp Phone' datatype='real' name='[yelp_phone]' role='measure' type='quantitative' />
+      <column caption='Yelp Price' datatype='real' name='[yelp_price]' role='measure' type='quantitative' />
+      <column caption='Yelp Price Mv' datatype='real' name='[yelp_price_mv]' role='measure' type='quantitative' />
+      <column caption='Yelp Rating' datatype='real' name='[yelp_rating]' role='measure' type='quantitative' />
+      <column caption='Yelp Review Count' datatype='real' name='[yelp_review_count]' role='measure' type='quantitative' />
+      <column caption='Yelp Reviews' datatype='string' name='[yelp_reviews]' role='dimension' type='nominal' />
+      <column caption='Yelp Reviews Hist' datatype='string' name='[yelp_reviews_hist]' role='dimension' type='nominal' />
+      <column caption='Yelp State' datatype='string' name='[yelp_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Yelp Transactions' datatype='string' name='[yelp_transactions]' role='dimension' type='nominal' />
+      <column caption='Yelp Url' datatype='string' name='[yelp_url]' role='dimension' type='nominal' />
+      <column caption='Yelp Weekly Day' datatype='integer' name='[yelp_weekly_day]' role='dimension' type='quantitative' />
+      <column caption='Yelp Weekly Hr' datatype='real' name='[yelp_weekly_hr]' role='measure' type='quantitative' />
+      <column caption='Yelp Zip Code' datatype='real' default-format='*00000' name='[yelp_zip_code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.522293' measure-ordering='alphabetic' measure-percentage='0.477707' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_all' name='federated.18yzqe31cf05xc19rcvap0pf5n9c' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18yzqe31cf05xc19rcvap0pf5n9c'>
+            <column caption='Crit' datatype='real' name='[CRIT]' role='measure' type='quantitative' />
+            <column caption='Zipcode' datatype='real' default-format='*00000' name='[ZIPCODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+            <column-instance column='[ZIPCODE]' derivation='None' name='[none:ZIPCODE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[CRIT]' derivation='Sum' name='[sum:CRIT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.18yzqe31cf05xc19rcvap0pf5n9c].[sum:CRIT:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.18yzqe31cf05xc19rcvap0pf5n9c].[sum:CRIT:qk]' />
+              <lod column='[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:ZIPCODE:ok]' />
+              <geometry column='[federated.18yzqe31cf05xc19rcvap0pf5n9c].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[Latitude (generated)]</rows>
+        <cols>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C386CC80-B5CC-469F-8B61-BCD1909EB18D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18yzqe31cf05xc19rcvap0pf5n9c].[sum:CRIT:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:CUISINE DESCRIPTION:nk]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:CrimeRate:ok]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:DBA:nk]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:ZIPCODE:ok]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:yelp_latitude:qk]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:yelp_longitude:qk]</field>
+            <field>[federated.18yzqe31cf05xc19rcvap0pf5n9c].[none:yelp_reviews:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C98E8DF1-989B-42F4-A723-7E45180607A8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
